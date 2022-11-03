@@ -1,0 +1,174 @@
+<svg version="1.1" baseProfile="full" width="492.0" height="606.0" viewbox="0 0 492 606" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+	<desc >[Customer|name:String;location:String|sendOrder();receiveOrder()]
+	
+	[Order|date:Date;number:String|confirm();close()]
+	
+	[SpecialOrder|date:Date;number:String|confirm();close();Dispatch()]
+	
+	[NormalOrder|date:Date;number:String|confirm();close();Dispatch();Receive]
+	
+	[Customer]1&lt;-n[Order]
+	
+	
+	[Order]&lt;-[&lt;label&gt;&quot;Super Class&quot;]
+	
+	[Order]&lt;-[SpecialOrder]
+	[Order]&lt;-[NormalOrder]
+	
+	[SpecialOrder]&lt;-[&lt;label&gt;&quot;Sub Class&quot;]
+	[NormalOrder]&lt;-[&lt;label&gt;&quot;Sub Class&quot;]</desc>
+	<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="bold" font-style="normal">
+		<g transform="translate(0.5, 0.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+			<g stroke="transparent" fill="transparent">
+				<rect x="0.0" y="0.0" height="606.0" width="492.0" stroke="none"></rect>
+			</g>
+			<g transform="translate(8, 8)" fill="#33322E">
+				<g transform="translate(20, 20)" fill="#33322E" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+					<text x="222.0" y="143.0" stroke="none">1</text>
+					<text x="196.2" y="155.0" stroke="none">n</text>
+					<path d="M214.0 129.7 L214 143 L214 163 L214.0 163.0 " fill="none"></path>
+					<path d="M219.3 136.3 L214.0 129.7 L208.7 136.3 L214.0 123.0 Z"></path>
+					<path d="M277.9 257.1 L374 306 L374 387 L374.0 387.0 " fill="none"></path>
+					<path d="M286.3 255.3 L277.9 257.1 L281.5 264.8 L272.0 254.0 Z"></path>
+					<path d="M150.1 257.9 L58 306 L58 333.5 L58.0 333.5 " fill="none"></path>
+					<path d="M146.7 265.7 L150.1 257.9 L141.7 256.2 L156.0 254.8 Z"></path>
+					<path d="M214.0 292.7 L214 306 L214 326 L214.0 326.0 " fill="none"></path>
+					<path d="M219.3 299.3 L214.0 292.7 L208.7 299.3 L214.0 286.0 Z"></path>
+					<path d="M58.0 478.2 L58 499 L101.94366197183098 519 L101.9 519.0 " fill="none"></path>
+					<path d="M63.3 484.8 L58.0 478.2 L52.7 484.8 L58.0 471.5 Z"></path>
+					<path d="M214.0 485.7 L214 499 L170.05633802816902 519 L170.1 519.0 " fill="none"></path>
+					<path d="M219.3 492.3 L214.0 485.7 L208.7 492.3 L214.0 479.0 Z"></path>
+					<g data-name="Customer">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Customer">
+							<rect x="155.0" y="0.0" height="123.0" width="119.0" data-name="Customer"></rect>
+							<path d="M155.0 31.0 L274.0 31.0" fill="none" data-name="Customer"></path>
+							<path d="M155.0 77.0 L274.0 77.0" fill="none" data-name="Customer"></path>
+						</g>
+						<g transform="translate(155, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Customer">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Customer">
+								<text x="51.5" y="13.5" stroke="none" text-anchor="middle" data-name="Customer">Customer</text>
+								
+							</g>
+						</g>
+						<g transform="translate(155, 31)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Customer">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Customer">
+								<text x="0.0" y="13.5" stroke="none" data-name="Customer">name:String</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="Customer">location:String</text>
+								
+							</g>
+						</g>
+						<g transform="translate(155, 77)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Customer">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Customer">
+								<text x="0.0" y="13.5" stroke="none" data-name="Customer">sendOrder()</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="Customer">receiveOrder()</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Order">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Order">
+							<rect x="156.0" y="163.0" height="123.0" width="116.0" data-name="Order"></rect>
+							<path d="M156.0 194.0 L272.0 194.0" fill="none" data-name="Order"></path>
+							<path d="M156.0 240.0 L272.0 240.0" fill="none" data-name="Order"></path>
+						</g>
+						<g transform="translate(156, 163)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Order">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Order">
+								<text x="50.0" y="13.5" stroke="none" text-anchor="middle" data-name="Order">Order</text>
+								
+							</g>
+						</g>
+						<g transform="translate(156, 194)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Order">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Order">
+								<text x="0.0" y="13.5" stroke="none" data-name="Order">date:Date</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="Order">number:String</text>
+								
+							</g>
+						</g>
+						<g transform="translate(156, 240)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Order">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Order">
+								<text x="0.0" y="13.5" stroke="none" data-name="Order">confirm()</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="Order">close()</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="SpecialOrder">
+						<g fill="#eee8d5" stroke="#33322E" data-name="SpecialOrder">
+							<rect x="0.0" y="334.0" height="138.0" width="116.0" data-name="SpecialOrder"></rect>
+							<path d="M0.0 365.0 L116.0 365.0" fill="none" data-name="SpecialOrder"></path>
+							<path d="M0.0 411.0 L116.0 411.0" fill="none" data-name="SpecialOrder"></path>
+						</g>
+						<g transform="translate(0, 334)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="SpecialOrder">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="SpecialOrder">
+								<text x="50.0" y="13.5" stroke="none" text-anchor="middle" data-name="SpecialOrder">SpecialOrder</text>
+								
+							</g>
+						</g>
+						<g transform="translate(0, 365)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="SpecialOrder">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="SpecialOrder">
+								<text x="0.0" y="13.5" stroke="none" data-name="SpecialOrder">date:Date</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="SpecialOrder">number:String</text>
+								
+							</g>
+						</g>
+						<g transform="translate(0, 411)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="SpecialOrder">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="SpecialOrder">
+								<text x="0.0" y="13.5" stroke="none" data-name="SpecialOrder">confirm()</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="SpecialOrder">close()</text>
+								<text x="0.0" y="43.5" stroke="none" data-name="SpecialOrder">Dispatch()</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="NormalOrder">
+						<g fill="#eee8d5" stroke="#33322E" data-name="NormalOrder">
+							<rect x="156.0" y="326.0" height="153.0" width="116.0" data-name="NormalOrder"></rect>
+							<path d="M156.0 357.0 L272.0 357.0" fill="none" data-name="NormalOrder"></path>
+							<path d="M156.0 403.0 L272.0 403.0" fill="none" data-name="NormalOrder"></path>
+						</g>
+						<g transform="translate(156, 326)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="NormalOrder">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="NormalOrder">
+								<text x="50.0" y="13.5" stroke="none" text-anchor="middle" data-name="NormalOrder">NormalOrder</text>
+								
+							</g>
+						</g>
+						<g transform="translate(156, 357)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="NormalOrder">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="NormalOrder">
+								<text x="0.0" y="13.5" stroke="none" data-name="NormalOrder">date:Date</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="NormalOrder">number:String</text>
+								
+							</g>
+						</g>
+						<g transform="translate(156, 403)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="NormalOrder">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="NormalOrder">
+								<text x="0.0" y="13.5" stroke="none" data-name="NormalOrder">confirm()</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="NormalOrder">close()</text>
+								<text x="0.0" y="43.5" stroke="none" data-name="NormalOrder">Dispatch()</text>
+								<text x="0.0" y="58.5" stroke="none" data-name="NormalOrder">Receive</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="&quot;Super Class&quot;">
+						
+						<g transform="translate(312, 387)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="&quot;Super Class&quot;">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="&quot;Super Class&quot;">
+								<text x="54.0" y="13.5" stroke="none" text-anchor="middle" data-name="&quot;Super Class&quot;">&quot;Super Class&quot;</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="&quot;Sub Class&quot;">
+						
+						<g transform="translate(82, 519)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="&quot;Sub Class&quot;">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="&quot;Sub Class&quot;">
+								<text x="46.5" y="13.5" stroke="none" text-anchor="middle" data-name="&quot;Sub Class&quot;">&quot;Sub Class&quot;</text>
+								
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

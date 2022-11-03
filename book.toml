@@ -1,0 +1,23 @@
+[book]
+authors = ["Seb Blair"]
+title = "Software Engineering"
+language = "en"
+multilingual = false
+src = "content"
+
+[output.html]
+mathjax-support = true
+git-repository-url = "https://github.com/cccu-uk/ELEE1149_Exercises"
+edit-url-template = "https://github.com/cccu-uk/ELEE11496_Exercises/edit/master/{path}"
+
+[output.html.print]
+enable = false
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
