@@ -1,6 +1,11 @@
-[**Contents**]
+# Contents
 
 [Introduction](Introduction.md)
+
+[ELEE1149 Assignment]()
+
+--------------------
+# Workshops/Labs/Quizzes
 
 - [Lab 1](Lab_1/Lab_1.md)
 
@@ -27,4 +32,12 @@
 - [Lab 11](Lab_11/Lab_11.md)
 ------
 
-[ELEE1149 Assignment]()
+# Git
+
+  - [My First Repository](myFirstRepository/myFirstRepository.md)
+  - [Branching-Strategy](BranchingModel/BranchingModel.md)
+  - [Git Oneflow](OneFlow/OneFlow.md)
+  - [Anti Patterns](AntiPatterns/AntiPatterns.md)
+  - [Continous Deployment](ContinousDeployment/ContinousDeployment.md)
+  - [Release Deployment](ReleaseDeployment/ReleaseDeployment.md)
+  - [Migration](Migration/Migration.md)
