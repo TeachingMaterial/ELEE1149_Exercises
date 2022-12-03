@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="700px" preserveAspectRatio="none" style="width:427px;height:700px;background:#FFFFFF;" version="1.1" viewBox="0 0 427 700" width="427px" zoomAndPan="magnify"><defs/><g><g id="idle"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="228" y="87"/><line style="stroke:#181818;stroke-width:0.5;" x1="228" x2="278" y1="113.2969" y2="113.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="240" y="104.9951">Idle</text></g><g id="SOR"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="162" x="172" y="198"/><line style="stroke:#181818;stroke-width:0.5;" x1="172" x2="334" y1="224.2969" y2="224.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="182" y="215.9951">Send order Request</text></g><g id="SNSO"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="236" x="7" y="309"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="243" y1="335.2969" y2="335.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="17" y="326.9951">Select normal or special order</text></g><g id="OC"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="49" y="436"/><line style="stroke:#181818;stroke-width:0.5;" x1="49" x2="207" y1="462.2969" y2="462.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="59" y="453.9951">Order confirmation</text></g><g id="DO"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="66.5" y="547"/><line style="stroke:#181818;stroke-width:0.5;" x1="66.5" x2="193.5" y1="573.2969" y2="573.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="76.5" y="564.9951">Dispatch order</text></g><ellipse cx="253" cy="16" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="213" cy="684" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="213.5" cy="684.5" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[583e8850357656d6f71ed436b986edf1]
+link *start to idle--><g id="link_*start_idle"><path d="M253,26.013 C253,38.698 253,62.409 253,81.57 " fill="none" id="*start-to-idle" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="253,86.84,257,77.84,253,81.84,249,77.84,253,86.84" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5b413a6a40f5c9a81df6106ed1c79c73]
+link idle to SOR--><g id="link_idle_SOR"><path d="M253,137.191 C253,153.56 253,175.279 253,192.64 " fill="none" id="idle-to-SOR" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="253,197.877,257,188.877,253,192.877,249,188.877,253,197.877" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[54b6be35a33e8f87515702d8e0cd6f67]
+link SOR to SNSO--><g id="link_SOR_SNSO"><path d="M224.593,248.191 C204.707,265.125 178.098,287.784 157.388,305.42 " fill="none" id="SOR-to-SNSO" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="153.328,308.877,162.7738,306.0882,157.1351,305.6356,157.5876,299.9969,153.328,308.877" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[720d32aebd4af73529977bb5b0bca43d]
+link SNSO to OC--><g id="link_SNSO_OC"><path d="M125.578,359.101 C126.07,379.593 126.778,409.076 127.301,430.884 " fill="none" id="SNSO-to-OC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="127.423,435.973,131.2058,426.8796,127.303,430.9744,123.2082,427.0716,127.423,435.973" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="128" y="402.0669">Confirm order (Event)</text></g><!--MD5=[254d3fef4d0a94ce539bb9362209d2f7]
+link OC to DO--><g id="link_OC_DO"><path d="M128.444,486.191 C128.744,502.56 129.143,524.279 129.461,541.64 " fill="none" id="OC-to-DO" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="129.557,546.877,133.3917,537.8054,129.4656,541.8778,125.3931,537.9517,129.557,546.877" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5d7b6d84685dabbf42861352c44d135a]
+link SOR to *end--><g id="link_SOR_*end"><path d="M268.524,248.042 C280.841,269.45 296,302.079 296,333 C296,333 296,333 296,573 C296,606.0357 294.025,617.7251 274,644 C261.786,660.027 240.948,671.275 227.077,677.4445 " fill="none" id="SOR-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="222.31,679.4871,232.158,679.6203,226.9061,677.5184,229.008,672.2665,222.31,679.4871" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="313" y="458.0669">Abnormal Exit</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="297" y="473.1997">Final state (Failure)</text></g><!--MD5=[3ce7ff63d2bb52d4c5152e6d662fed90]
+link DO to *end--><g id="link_DO_*end"><path d="M122.36,597.2018 C119.251,611.8626 118.177,630.3116 127,644 C142.735,668.4134 177.881,677.7147 198.034,681.1281 " fill="none" id="DO-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="203.053,681.9087,194.7748,676.5728,198.1124,681.1401,193.5451,684.4777,203.053,681.9087" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="128" y="640.0669">Complete Transaction</text></g><!--MD5=[41dc6932e004d92a9c82c7ffb48165f0]
+@startuml
+state "Idle" as idle
+state "Send order Request" as SOR
+state "Select normal or special order" as SNSO
+state "Order confirmation" as OC
+state "Dispatch order" as DO
+
+[*] - -> idle
+idle- ->SOR
+SOR- ->SNSO
+SNSO- ->OC: Confirm order (Event)
+OC - ->DO
+
+SOR - -> [*]: Abnormal Exit\nFinal state (Failure)
+DO - -> [*]:Complete Transaction
+@enduml
+
+PlantUML version 1.2022.14beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
