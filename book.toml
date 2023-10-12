@@ -9,7 +9,7 @@ src = "content"
 mathjax-support = true
 git-repository-url = "https://github.com/cccu-uk/ELEE1149_Exercises"
 edit-url-template = "https://github.com/cccu-uk/ELEE1149_Exercises/edit/master/{path}"
-input-404 = "content/404/404.md"
+input-404 = "404/404.md"
 
 [output.html.print]
 enable = false
