@@ -1,4 +1,4 @@
-# Tutorial 1
+# Lab  2 - Software Engineering 2
 
 <details>
 <summary>1. What are the essential attributes of good software?</summary>

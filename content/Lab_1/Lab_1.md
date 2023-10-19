@@ -1,4 +1,4 @@
-# Tutorial 1
+# Lab 1 - Sofware Engineering 1
 
 1. Watch the following videos that give you complementary information to the lecture about software engineering in the general and its code of ethics in particular:
    

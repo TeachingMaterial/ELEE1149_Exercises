@@ -1,4 +1,4 @@
-# Tutorial 3
+# Lab 3 - Software Process Modelling
 
 In your logbook, answer the following question.
 
@@ -53,4 +53,4 @@ Now take a look at Java T(utorial) Point – a great resource of tutorials on So
 
 You can also click on the links for each model to get more information about it. 
 
-In your tutorial handbook, draw a table to compare the different models presented in the tutorial with the following columns: model name, brief model description, what type of software development is the model good to be used for.
+Draw a table to compare the different models presented in the tutorial with the following columns: model name, brief model description, what type of software development is the model good to be used for.
