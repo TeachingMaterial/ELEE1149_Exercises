@@ -13,13 +13,13 @@
 
 - [Lab 3](Lab_3/Lab_3.md)
 
-- [Lab 4]()
+- [Lab 4](Lab_4/Lab_4.md)
 
-- [Lab 5]()
+- [Lab 5](Lab_5/Lab_5.md)
 
-- [Lab 6]()
+- [Lab 6](Lab_6/Lab_6.md)
 
-- [Lab 7]()
+- [Lab 7](Lab_7/Lab_7.md)
 
 - [Lab 8]()
 
