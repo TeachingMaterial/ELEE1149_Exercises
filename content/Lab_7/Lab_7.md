@@ -1,4 +1,4 @@
-# Quiz Requirements Engineering
+# Lab 7:  Requirements Engineering
 
 <details>
 <summary>What are user requirements and system requirements?</summary>

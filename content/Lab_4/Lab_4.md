@@ -1,4 +1,4 @@
-# Group Quiz
+# Lab 4: Software Process Models amd Activities
 
 <details>
 <summary>1. What are the fundamental activities that are common to all software processes?</summary>

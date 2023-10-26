@@ -1,4 +1,4 @@
-# Tutorial 6
+# Lab 6 : Software Methodologies
 
 
 1. Watch the following video that provides complementary information to the lecture about Agile Software Development and answer the questions in your logbook:
