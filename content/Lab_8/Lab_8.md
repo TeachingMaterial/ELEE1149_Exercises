@@ -1,4 +1,4 @@
-# Lab 8:  Requirements Engineering
+# Lab 8:  Requirements Engineering Pt 2
 
 1. Watch the following video that give you complementary information to the lecture.  Answer the questions in your logbook and discuss them in your assignment teams.
     - An Introduction to Requirements Engineering (10 mins) [https://www.youtube.com/watch?v=Ec0s0z5uXQ8](https://www.youtube.com/watch?v=Ec0s0z5uXQ8)
