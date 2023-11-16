@@ -17,15 +17,15 @@
 *Note: Bear in mind the following deadlines:*
 
 - **Phase 1: Requirements Phase**
-  - Assignment Phase 1 Set: 10th November 2022
-  - Assignment Phase 1 Due: 8th December 2022
+  - Assignment Phase 1 Set: 1st November 2023
+  - Assignment Phase 1 Due: 12th December 2023 @ 2000
 
 - **Phase 2: System Modelling and Design Phase**
-  - Assignment Phase 2 Set: 8th December 2022
-  - Assignment Phase 2 Due: 19th January 2023
+  - Assignment Phase 2 Set: 14th December 2023
+  - Assignment Phase 2 Due: 23rd January 2024 @2000
 
 - **Phase 3: Implementation and Testing Phase**
-  - Assignment Phase 3 Set: 19th January 2023
-  - Assignment Phase 3 Due: 16th March 2023
+  - Assignment Phase 3 Set: 25h January 2024
+  - Assignment Phase 3 Due: 19th March 2024 @2000
 
 3. In your groups, start thinking and documenting the possible risks involved in developing the software for the assignment and their management.

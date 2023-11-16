@@ -23,7 +23,7 @@
 
 - [Lab 8](Lab_8/Lab_8.md)
 
-- [Lab 9]()
+- [Lab 9](Lab_9/Lab_9.md)
 
 - [Lab 10]()
    - [UML - Interaction Diagrams]()
