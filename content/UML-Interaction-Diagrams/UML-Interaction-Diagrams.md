@@ -64,14 +64,6 @@ The first call is sendOrder which is a method of Order object. The next call is 
 
 </div>
 
-## Collaboration Diagram:
-
-The second interaction diagram is collaboration diagram. It shows the object organization as shown below. Here in collaboration diagram the method call sequence is indicated by some numbering technique as shown below. The number indicates how the methods are called one after another. We have taken the same order management system to describe the collaboration diagram.
-
-The method calls are similar to that of a sequence diagram. But the difference is that the sequence diagram does not  escribe the object organization where as the collaboration diagram shows the object organization.
-
-Now to choose between these two diagrams the main emphasis is given on the type of requirement. If the time sequence is  mportant then sequence diagram is used and if organization is required then collaboration diagram is used.
-
 ## Where to use Interaction Diagrams?
 
 We have already discussed that interaction diagrams are used to describe dynamic nature of a system. Now we will look into the practical scenarios where these diagrams are used. To understand the practical application we need to understand the basic nature of sequence and collaboration diagram.
