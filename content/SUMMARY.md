@@ -25,10 +25,10 @@
 
 - [Lab 9](Lab_9/Lab_9.md)
 
-- [Lab 10]()
-   - [UML - Interaction Diagrams]()
-   - [UML - Class Diagrams]()
-   - [UML - Case Diagrams]()
+- [Lab 10](Lab_10/Lab_10.md)
+   - [UML - Interaction Diagrams](UML-Interaction-Diagrams/UML-Interaction-Diagrams.md)
+   - [UML - Class Diagrams](UML-Class-Diagrams/UML-Class-Diagrams.md)
+   - [UML - Case Diagrams](UML-Case-Diagrams/UML-Case-Diagrams.md)
 - [Lab 11]()
    - [UML - Activity Diagrams]() 
    - [UML - State Diagrams]() 
