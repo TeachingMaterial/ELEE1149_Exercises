@@ -6,8 +6,7 @@ From the name Interaction it is clear that the diagram is used to describe some 
 among the different elements in the model. So this interaction is a part of dynamic behaviour of
 the system.
 
-This interactive behaviour is represented in UML by two diagrams known as Sequence diagram
-and Collaboration diagram. The basic purposes of both the diagrams are similar.
+This interactive behaviour is represented in UML by two diagrams known as Sequence diagram and Collaboration diagram. The basic purposes of both the diagrams are similar.
 
 Sequence diagram emphasizes on time sequence of messages and collaboration diagram
 emphasizes on the structural organization of the objects that send and receive messages.
