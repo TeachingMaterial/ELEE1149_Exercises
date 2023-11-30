@@ -2,8 +2,6 @@
 
 [Introduction](Introduction.md)
 
-[ELEE1149 Assignment]()
-
 --------------------
 # Workshops/Labs/Quizzes
 
@@ -29,9 +27,9 @@
    - [UML - Interaction Diagrams](UML-Interaction-Diagrams/UML-Interaction-Diagrams.md)
    - [UML - Class Diagrams](UML-Class-Diagrams/UML-Class-Diagrams.md)
    - [UML - Case Diagrams](UML-Case-Diagrams/UML-Case-Diagrams.md)
-- [Lab 11]()
-   - [UML - Activity Diagrams]() 
-   - [UML - State Diagrams]() 
+- [Lab 11](Lab_11/Lab_11.md)
+   - [UML - Activity Diagrams](UML-Activity-Diagrams/UML-Activity-Diagrams.md) 
+   - [UML - State Diagrams](UML-State-Diagrams/UML-State-Diagrams.md) 
 - [Lab 12]()
 - [Lab 13]()
 ------
