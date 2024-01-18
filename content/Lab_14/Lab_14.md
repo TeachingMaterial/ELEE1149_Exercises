@@ -12,7 +12,7 @@ We are going to create a new C# Windows Platform Application give it the project
 
 </div>
 
-2. Firstly you need modify the <Window ..> tag so that the Title attribute says Banking System,  and the height and width are 500 and 600. 
+2. Firstly you need modify the `<Window ..>` tag so that the Title attribute says Banking System,  and the height and width are 500 and 600. 
 
     ```xml
     <Window x:Class="BankingApp_Wpf.MainWindow"
@@ -55,7 +55,7 @@ We are going to create a new C# Windows Platform Application give it the project
 
     <div>
 
-6. Now we need to create a new StackPanel to house our **Account Number**, **First** \& **Last name**, and **account balanace**:
+6. Now we need to create a new `StackPanel` to house our **Account Number**, **First** \& **Last name**, and **account balanace**:
 
     ```xml
     <StackPanel Margin="0,0,0,15">
@@ -759,7 +759,7 @@ Recall the `MainWindow.xaml` file where the implemenation of interactive element
 
 
 
-23. We will start with the Account ComboBox and initialise and decalaration of the `Account` class:
+23. We will start with the Account `ComboBox` and initialise and decalaration of the `Account` class:
 
     <details>
     <summary>Code here...</summary>
