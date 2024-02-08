@@ -51,11 +51,7 @@ In this lab you are going to build a console application that demonstrates the c
 
 ## Task 2:
 
-<<<<<<< HEAD
-6. Modify `main()` in the `Program.cs` file to create to objects of the Car class called, `myCar` and `anotherCar`, remember you need to initialise the object using the expected arguments as per the Car constructor.
-=======
 6. Modify `main()` in the `Program.cs` file to create to objects of the `Car` class called, `myCar` and `anotherCar`, remember you need to initialise the object using the expected arguments as per the `Car` constructor.
->>>>>>> dev
 
     ```c#
     // Creating Car instances
@@ -219,18 +215,6 @@ In order to use the injected engine interface, we need to use the use inheritanc
 
 18. Go back to `Program.cs` fix the errors in the initialisation of the Car by adding a `new GasEngine` and `new ElectricEngine`.
 
-<<<<<<< HEAD
-```c#
-
-```
-19. Run and see the following output:
-
-![](Figures/Task4_Output.png)
-
-Can you see that the Interface Engine has been invoked and the Gas Engine has started for the Ford Puma.
-
-20. Complete the other Methods for the `ElectricEngine` and `GasEngine` classes.
-=======
     ```c#
     Car myCar = new Car("Ford Puma", 2022, new GasEngine());
     Car anotherCar = new Car("Honda Accord", 2021, new ElectricEngine());
@@ -243,7 +227,6 @@ Can you see that the Interface Engine has been invoked and the Gas Engine has st
     Can you see that the Interface `IEngine` has been invoked and the `GasEngine` objects method `Start()` has been invoked for the Ford Puma.
 
 20.  Complete the other Methods for the `ElectricEngine` and `GasEngine` classes.
->>>>>>> dev
 
 --------------
 
