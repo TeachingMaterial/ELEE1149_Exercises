@@ -34,6 +34,7 @@
 - [Lab 13](Lab_13/Lab_13.md)
 - [Lab 14](Lab_14/Lab_14.md)
 - [Lab 15](Lab_15/Lab_15.md)
+- [Lab 16](ContinousIntegration/ContinousIntegration.md)
 ------
 
 # Git
