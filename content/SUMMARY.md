@@ -1,6 +1,6 @@
 # Contents
 
-[Introduction](Introduction.md)
+[Introduction](Introduction/Introduction.md)
 
 --------------------
 # Workshops/Labs/Quizzes
